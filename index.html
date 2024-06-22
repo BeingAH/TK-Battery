@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TKBattery</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./chart.umd.js"></script>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  </head>
+
+  <body>
+    <table>
+      <tr id="logo">
+        <td>
+          <div id="img" class="img"></div>
+        </td>
+      </tr>
+      <tr id="title">
+        <td class="title">
+          <div id="up">Turn Your Small, Unpredictable Expenses</div>
+          <div id="low">Into Predictable, Manageable Ones</div>
+        </td>
+      </tr>
+      <tr id="chart">
+        <td>
+          <canvas id="cchart" aria-label="chart">
+            <p>Your browser does not support the canvas element.</p>
+          </canvas>
+        </td>
+      </tr>
+    </table>
+    <script src="./script.js"></script>
+  </body>
+</html>
